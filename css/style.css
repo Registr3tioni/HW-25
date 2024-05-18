@@ -1,0 +1,40 @@
+:root {
+    --test-name: red;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.list-item {
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#red {
+    margin: 100px 0px 0px 100px;
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    z-index: 1;
+}
+
+#blue {
+    margin: 175px 0px 0px 175px;
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    z-index: 2;
+}
+
+#green {
+    margin: 250px 0px 0px 250px;
+    width: 120px;
+    height: 120px;
+    background-color: green;
+    z-index: 1;
+}
